@@ -168,6 +168,7 @@ aside p:hover {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
 .footer{
 	background-color:#808080;
 }
@@ -180,7 +181,7 @@ aside p:hover {
 .left_content a:hover {
 	color: white;
 }
-/*>>>>>>>>>photography css>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>EXPLORE css>>>>>>>>>>>>>>>>>>>>>*/
 
 .row-1{
 	margin-right: 15px;
@@ -194,7 +195,7 @@ aside p:hover {
 }
 .col-2{
 	flex-basis: 48%;
-	min-width: 250px;
+	min-width: 400px;
 	transition:transform 0.5s;
 
 }
@@ -226,7 +227,7 @@ aside p:hover {
 
 .col-3{
 	flex-basis: 33%;
-	min-width: 250px;
+	min-width: 400px;
 	transition:transform 0.5s;
 
 }
