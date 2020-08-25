@@ -76,6 +76,7 @@ nav a:hover {
 	margin: 3%;
 	opacity: 0.8;
 	border-radius: 2.5px;
+	min-width: 225px;
 }
 
 .img_container:hover {
@@ -105,29 +106,6 @@ aside {
 aside p:hover {
 	border-radius: 3.5px;
 	color: #000000;
-}
-
-#myimage {
-	overflow: hidden;
-	width: 20%;
-	margin-left:50px;
-	margin-top: 40px;
-	margin-bottom: 100px;
-	border-radius: 100%;
-	border: 2px solid darkblue;
-	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-
-#about {
-	
-	color: black;
-	background-color: white;
-	float: right;
-	font-size: 100%;
-	margin-right: 18%;
-	margin-top: 40px;
 }
 
 .left_content{
@@ -298,5 +276,24 @@ figcaption{
 	color: black;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
 
+
+}
+
+
+.aboutrow-1{
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.aboutcol-2{
+	flex-basis: 35%;
+	min-width: 250px;
+	transition:transform 0.5s;
 
 }
