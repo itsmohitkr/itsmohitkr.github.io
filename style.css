@@ -10,9 +10,6 @@ body {
     cursor: pointer;
 	
 }
-.name:hover{
-	font-weight: bold;
-}
 .header{
 	background-color: orange;
 	position: fixed;
